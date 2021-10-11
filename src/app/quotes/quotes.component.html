@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+      <div class="col">
+        <h2>Quotes</h2>
+       <div *ngFor='let quote of quote;let i=index'>
+           <h5 class="margin-none">{{quote.title}}</h5>
+           <p class="margin-none">{{quote.description}}</p>
+
+           <app-quote-details *ngIf='quote' bind-voting='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
+       </div>
+      </div>
+      <div class="col">
+        <div>
+            <app-quote-forms (addQuote)='pushQuote($event)'></app-quote-forms>
+           </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,11 @@
+<p><strong>Author:</strong> {{voting.author}}</p>
+<p class="margin-none"><strong>posted : </strong>{{voting.datePost}}</p>
+<br>
+<div class="d-grid gap-2 d-md-block">
+    <button (click)='upVote()'class="btn btn-outline-success" type="button">Up Vote {{voting.upvote}}</button>
+    <button (click)='downVote()'class="btn btn-outline-primary" type="button">Down vote {{voting.downvote}}</button>
+    <button (click)='deleteQuote(true)' class="btn btn-danger" type="button">Delete</button>
+  </div>
+  <br>
+
+  
