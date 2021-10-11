@@ -8,7 +8,7 @@ Ferdinand Kiplangat
 
 ## Description
 
-This is an application where users can create quotes and have those quotes voted on.
+This is an Angular application where users can create quotes and have those quotes voted on.
 
 ## Development server
 
