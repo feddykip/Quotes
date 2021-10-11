@@ -54,4 +54,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 View live site [here](https://feddykip.github.io/Quotes/)
 
 ## License
-Licensed under the [MIT License](LICENSE).<br />
+Licensed under the [MIT License](LICENSE).
