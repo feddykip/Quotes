@@ -10,6 +10,14 @@ Ferdinand Kiplangat
 
 This is an Angular application where users can create quotes and have those quotes voted on.
 
+## Setup Instruction
+
+To access this project on your local files, you can clone it using these steps
+
+* Open your terminal
+* Use this command to clone $ git clone https://github.com/feddykip/Quotes.git
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
