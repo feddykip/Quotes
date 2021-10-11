@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Author
 
-Ferdinand Kiplangat
+Ferdinand Kiplangat we
 
 ## Description
 
