@@ -2,6 +2,22 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
+## Author
+
+Ferdinand Kiplangat 
+
+## Description
+
+This is an Angular application where users can create quotes and have those quotes voted on.
+
+## Setup Instruction
+
+To access this project on your local files, you can clone it using these steps
+
+* Open your terminal
+* Use this command to clone $ git clone https://github.com/feddykip/Quotes.git
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -25,3 +41,17 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Technologies/languages Used
+* Javascript
+* Typescript
+* Angular
+* HTML   
+* Bootstrap
+* CSS
+
+## Live site
+View live site [here](https://feddykip.github.io/Quotes/)
+
+## License
+Licensed under the [MIT License](LICENSE).
