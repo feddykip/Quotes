@@ -4,8 +4,9 @@
         <h2>Quotes</h2>
        <div *ngFor='let quote of quote;let i=index'>
            <h5 class="margin-none">{{quote.title}}</h5>
-           <p class="margin-none">{{quote.description}}</p>
-
+           <p *ngIf='mostUpvotes()!==quote.upvote || quote.upvote===0' class="top">{{quote.description}}</p>
+           <p appSelect *ngIf='mostUpvotes()===quote.upvote && quote.upvote>0' class="top">{{quote.description}}</p>
+           <p><strong>Author:</strong> {{quote.author}}</p>           
            <app-quote-details *ngIf='quote' bind-voting='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
        </div>
       </div>

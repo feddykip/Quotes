@@ -9,6 +9,7 @@ import { QuotesComponent } from './quotes/quotes.component';
 import { QuoteFormsComponent } from './quote-forms/quote-forms.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { ShowDatePipe } from './show-date.pipe';
+import { SelectDirective } from './select.directive';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { ShowDatePipe } from './show-date.pipe';
     QuoteFormsComponent,
     QuoteDetailsComponent,
     ShowDatePipe,
+    SelectDirective,
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,4 @@
-<p><strong>Author:</strong> {{voting.author}}</p>
-<p class="margin-none"><strong>posted : </strong>{{voting.datePost}}</p>
+<p><strong >Posted :</strong> {{ voting.datePost | showDate }}</p>
 <br>
 <div class="d-grid gap-2 d-md-block">
     <button (click)='upVote()'class="btn btn-outline-success" type="button">Up Vote {{voting.upvote}}</button>
